@@ -60,6 +60,7 @@ public class Create_Vender_Test extends Base_Class {
 		{
 			System.out.println("vendor not created and fail");
 			System.out.println("PULLED SUCCESSFULLY");
+			System.out.println("PUSHED SUCCESSFULLY");
 		}
 		
 	}
