@@ -59,7 +59,6 @@ public class Create_Vender_Test extends Base_Class {
 		else
 		{
 			System.out.println("vendor not created and fail");
-			System.out.println("vendor not created and fail");
 			
 		}
 		
