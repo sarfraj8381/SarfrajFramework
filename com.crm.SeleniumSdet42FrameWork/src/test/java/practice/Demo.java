@@ -9,5 +9,6 @@ public class Demo {
 	{
 		String var = System.getProperty("browser");
 		System.out.println(var);
+		System.out.println("pushed");
 	}
 }
