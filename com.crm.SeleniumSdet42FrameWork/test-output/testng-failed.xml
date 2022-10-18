@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.campaign.Create_Campaign_Test">
+      <class name="com.crm.opportunities.Create_Org_camp_Opportunities_Test1">
         <methods>
           <include name="AT"/>
           <include name="AS"/>
           <include name="BT"/>
           <include name="AC"/>
-          <include name="create_Campaign_Test"/>
           <include name="BM"/>
+          <include name="Create_Org_camp_Opportunities_test"/>
           <include name="AM"/>
           <include name="BS"/>
           <include name="BC"/>
         </methods>
-      </class> <!-- com.crm.campaign.Create_Campaign_Test -->
+      </class> <!-- com.crm.opportunities.Create_Org_camp_Opportunities_Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

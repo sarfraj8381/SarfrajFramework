@@ -2,48 +2,50 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-17T14:33:49 IST" name="Default suite" finished-at="2022-10-17T14:34:18 IST" duration-ms="28462">
+  <suite started-at="2022-10-18T10:26:32 IST" name="Default suite" finished-at="2022-10-18T10:27:37 IST" duration-ms="64760">
     <groups>
     </groups>
-    <test started-at="2022-10-17T14:33:49 IST" name="Default test" finished-at="2022-10-17T14:34:18 IST" duration-ms="28462">
-      <class name="com.crm.opportunities.Create_Opportunities_Test">
-        <test-method is-config="true" signature="BS()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:33:49 IST" name="BS" finished-at="2022-10-17T14:33:49 IST" duration-ms="17" status="PASS">
+    <test started-at="2022-10-18T10:26:32 IST" name="Default test" finished-at="2022-10-18T10:27:37 IST" duration-ms="64760">
+      <class name="com.crm.opportunities.Create_Org_camp_Opportunities_Test1">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:26:32 IST" name="BS" finished-at="2022-10-18T10:26:32 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:33:49 IST" name="BT" finished-at="2022-10-17T14:33:49 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:26:32 IST" name="BT" finished-at="2022-10-18T10:26:32 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:33:49 IST" name="BC" finished-at="2022-10-17T14:33:55 IST" duration-ms="5489" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:26:32 IST" name="BC" finished-at="2022-10-18T10:26:38 IST" duration-ms="5413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:33:55 IST" name="BM" finished-at="2022-10-17T14:34:01 IST" duration-ms="6081" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:26:38 IST" name="BM" finished-at="2022-10-18T10:26:44 IST" duration-ms="6582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="Create_Opportunities_Test()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:34:01 IST" name="Create_Opportunities_Test" finished-at="2022-10-17T14:34:17 IST" duration-ms="16337" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="Create_Org_camp_Opportunities_test()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:26:44 IST" name="Create_Org_camp_Opportunities_test" finished-at="2022-10-18T10:27:37 IST" duration-ms="52550" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@class='lvtColData']"}
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8F9QOOU', ip: '192.168.49.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\REFURB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f3dde44291f5b46c4f8e9f8b3617599]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\REFURB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 816f0f0d06c91db0dc18e3a82fba4bcb
+*** Element info: {Using=xpath, value=//tr[@class='lvtColData']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@class='lvtColData']"}
   (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8F9QOOU', ip: '192.168.49.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\REFURB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f3dde44291f5b46c4f8e9f8b3617599
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\REFURB~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65180}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 816f0f0d06c91db0dc18e3a82fba4bcb
+*** Element info: {Using=xpath, value=//tr[@class='lvtColData']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,16 +57,15 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at com.crm.objetrepository.Home_Page.clickCampaigns(Home_Page.java:125)
-at com.crm.opportunities.Create_Opportunities_Test.Create_Opportunities_Test(Create_Opportunities_Test.java:38)
+at com.crm.objetrepository.Create_Org_camp_Opportunities.clickSearchedOrg(Create_Org_camp_Opportunities.java:263)
+at com.crm.opportunities.Create_Org_camp_Opportunities_Test1.Create_Org_camp_Opportunities_test(Create_Org_camp_Opportunities_Test1.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,27 +96,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Create_Opportunities_Test -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:34:17 IST" name="AM" finished-at="2022-10-17T14:34:17 IST" duration-ms="20" status="PASS">
+        </test-method> <!-- Create_Org_camp_Opportunities_test -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:27:37 IST" name="AM" finished-at="2022-10-18T10:27:37 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:34:17 IST" name="AC" finished-at="2022-10-17T14:34:18 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:27:37 IST" name="AC" finished-at="2022-10-18T10:27:37 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:34:18 IST" name="AT" finished-at="2022-10-17T14:34:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AT()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:27:37 IST" name="AT" finished-at="2022-10-18T10:27:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:com.crm.opportunities.Create_Opportunities_Test@56620197]" started-at="2022-10-17T14:34:18 IST" name="AS" finished-at="2022-10-17T14:34:18 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:com.crm.opportunities.Create_Org_camp_Opportunities_Test1@56620197]" started-at="2022-10-18T10:27:37 IST" name="AS" finished-at="2022-10-18T10:27:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- com.crm.opportunities.Create_Opportunities_Test -->
+      </class> <!-- com.crm.opportunities.Create_Org_camp_Opportunities_Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
