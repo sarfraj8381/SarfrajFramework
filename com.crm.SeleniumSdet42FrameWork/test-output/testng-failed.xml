@@ -5,15 +5,7 @@
     <classes>
       <class name="com.crm.opportunities.Create_Org_camp_Opportunities_Test1">
         <methods>
-          <include name="AT"/>
-          <include name="AS"/>
-          <include name="BT"/>
-          <include name="AC"/>
-          <include name="BM"/>
           <include name="Create_Org_camp_Opportunities_test"/>
-          <include name="AM"/>
-          <include name="BS"/>
-          <include name="BC"/>
         </methods>
       </class> <!-- com.crm.opportunities.Create_Org_camp_Opportunities_Test1 -->
     </classes>

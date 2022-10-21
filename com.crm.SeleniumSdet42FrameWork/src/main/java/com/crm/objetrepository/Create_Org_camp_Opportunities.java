@@ -53,7 +53,7 @@ public class Create_Org_camp_Opportunities {
 	@FindBy(name="search")
 	private WebElement searchButton;
 	
-	@FindBy(xpath="//tr[@class='lvtColData']")
+	@FindBy(xpath="//a[contains(text(),'Qspider')]")
 	private WebElement searchedOrg;
 	
 	//switch window
@@ -67,11 +67,13 @@ public class Create_Org_camp_Opportunities {
 	@FindBy(name="search")
 	private WebElement campSearchButton;
 	
-	@FindBy(xpath="//tr[@class='lvtColData']")
+	@FindBy(xpath="//a[contains(text(),'Sarfraj')]")
 	private WebElement selectSearchedCamp;
 	
 	//switch window
 	
+	@FindBy(xpath="(//input[@title='Save [Alt+S]'])[1]")
+	private WebElement opportunitiesSave;
 	
 	
 
@@ -164,6 +166,11 @@ public class Create_Org_camp_Opportunities {
 	
 	public WebElement getSelectSearchedCamp() {
 		return selectSearchedCamp;
+	}
+	
+	
+	public WebElement getOpportunitiesSave() {
+		return opportunitiesSave;
 	}
 	
 	
@@ -292,7 +299,11 @@ public class Create_Org_camp_Opportunities {
 	}
 	
 	
-	//business logic for 
+	//business logic for Opportunities Save
+	public void clickOpportunitiesSave()
+	{
+		opportunitiesSave.click();
+	}
 	
 	
 	//business logic for 
