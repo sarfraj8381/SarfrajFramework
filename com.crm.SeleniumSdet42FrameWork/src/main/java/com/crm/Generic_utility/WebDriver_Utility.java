@@ -1,9 +1,15 @@
 package com.crm.Generic_utility;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.poi.hpsf.Date;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -185,7 +191,20 @@ public class WebDriver_Utility {
 			a.moveByOffset(x, y).click().perform();
 		}
 		
-		
+	
+	public String takeScreenshotOfPage(WebDriver driver, String screenshotName) throws IOException{
+		 Date d = new Date();
+		 String date = d.toString().replace(" ", "-").replace(":", "-");
+		 TakesScreenshot ts = (TakesScreenshot) driver;
+		 File source = ts.getScreenshotAs(OutputType.FILE);
+		 screenshotName = screenshotName + date;
+		 File destination = new File("./Screenshots/" + screenshotName + " " + ".png");
+		 FileUtils.copyFile(source, destination);
+		 System.out.println("Screenshot Taken Successfully");
+		 return destination.getAbsolutePath();
+
+	}
+	
 		
 		
 		

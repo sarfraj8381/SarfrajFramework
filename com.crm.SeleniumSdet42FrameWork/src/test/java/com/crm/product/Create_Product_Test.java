@@ -15,6 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -50,6 +51,7 @@ public class Create_Product_Test extends Base_Class {
 		Create_Product_pom pro=new Create_Product_pom(driver);
 		pro.clickCreateProductLink();
 		pro.putProductNameTextBox(productName);
+		Assert.assertEquals(false, true);
 		pro.clickSaveButton();
 		
 		String product = driver.findElement(By.xpath("//font[@color='purple']/ancestor::span[contains(text(),'"+productName+"')]")).getText();
